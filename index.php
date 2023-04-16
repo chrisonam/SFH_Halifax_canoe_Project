@@ -1,36 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/app.css">
-    <title>Halifax Canoe and Kayak</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Book Trip</a></li>
-                <li><a href="#">Admin login</a></li>
-            </ul>
-            <div class="menu-hamb">
-                <img src="images/hamburger.png" alt="Menu hamburger">
-            </div>
-        </nav>
-        
-        <a href="#" class="title-nav"> Halifax Canoe and Kayak</a>
-        <div class="logo">
-            <img src="images/paddle-white.png" alt="">
-        </div>
-    </header>
 
+<?php 
+  include './pages/header.php';
+?>
 
     <main>
-        <div class="banner">
-            <h1> Come Experienced Canada</h1>
+        <div class="formu">
+             <form class="row row-cols-lg-auto g-3 align-items-center">
+                 <div class="col-12">
+                     <select class="form-select" aria-label="Default select example">
+                        <option value="1">Mr</option>
+                        <option value="2">Mrs</option>
+                        <option value="3">Ms</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control" id="fistname" placeholder="First name">
+                </div>
+
+                <div class="col-12">
+                    <input type="text" class="form-control" id="lastname" placeholder="Last name">
+                </div>
+
+                <div class="col-12">
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="Admin">Admin</option>
+                        <option value="Manager">Manager</option>
+                        <option value="CEO">CEO</option>
+                    </select>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+             </form>
         </div>
+
+ 
+
         <section>
             <div class="title-section">
                 <h1>Upcoming Adventures</h1>
@@ -67,9 +74,7 @@
         </section>
     </main>
 
-    <footer>
-        <p>SFH 2023 WD-French |  &copy Christian Imponge.</p>
-    </footer>
-</body>
-<script src="assets/app.js"></script>
-</html>
+    <?php 
+  include './pages/footer.php';
+?>
+  
