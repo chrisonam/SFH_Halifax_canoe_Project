@@ -28,5 +28,5 @@
     </header>
     <main>
         <div class="mx-auto p-5 w-75" >
-           <a class="text-end" href="logout.php">Logout</a>
+           <a class="logout" href="logout.php" >Logout</a>
         </div>
