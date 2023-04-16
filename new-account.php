@@ -1,9 +1,10 @@
 <?php 
 include './pages/header.php';
 session_start();
-$_SESSION['firstname']= $first;
-$_SESSION['lastname']=$last;
-$_SESSION['role']=$role;
+$first=$_SESSION['firstname'];
+$last= $_SESSION['lastname'];
+$role= $_SESSION['role'];
+
 
 ?>
  <div  class="mx-auto p-5 bg-secondary w-75 rounded" >
@@ -19,7 +20,11 @@ $_SESSION['role']=$role;
                 <div class="col-12">
                     <input type="text" class="form-control" name="lastname" placeholder="Last name">
                 </div>
-
+                <div class="col-12">
+                    <select class="form-select" name="emailType">
+                        <option value="new_Acc">New Account</option>
+                    </select>
+                </div>
 
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary">Submit</button>

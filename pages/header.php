@@ -29,7 +29,7 @@
     <main>
         <div class="mx-auto p-5 w-75 logout"  >
             <div class="logout">
-           <a  href="logout.php">Logout</a>
+           <a  href="logout.php" onclick="return confirm('Are you sure to logout?')";>Logout</a>
             </div>
-            
+
         </div>
