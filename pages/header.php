@@ -12,7 +12,7 @@
     <header>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Book Trip</a></li>
                 <li><a href="#">Admin login</a></li>
             </ul>
@@ -26,3 +26,7 @@
             <img src="./images/paddle-white.png" alt="">
         </div>
     </header>
+    <main>
+        <div class="mx-auto p-5 w-75" >
+           <a class="text-end" href="logout.php">Logout</a>
+        </div>

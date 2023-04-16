@@ -3,9 +3,11 @@
   include './pages/header.php';
 ?>
 
-    <main>
-        <div class="formu">
-             <form class="row row-cols-lg-auto g-3 align-items-center">
+    
+        <div  class="mx-auto p-5 bg-secondary w-75 rounded" >
+            <h2 class="text-white-50">Welcome To Your IT Support System </h2>
+
+             <form class="row row-cols-lg-auto g-3 align-items-center" method="get" action="problem.php">
                  <div class="col-12">
                      <select class="form-select" aria-label="Default select example">
                         <option value="1">Mr</option>
@@ -15,18 +17,18 @@
                 </div>
 
                 <div class="col-12">
-                    <input type="text" class="form-control" id="fistname" placeholder="First name">
+                    <input type="text" class="form-control" name="firstname" placeholder="First name">
                 </div>
 
                 <div class="col-12">
-                    <input type="text" class="form-control" id="lastname" placeholder="Last name">
+                    <input type="text" class="form-control" name="lastname" placeholder="Last name">
                 </div>
 
                 <div class="col-12">
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="Admin">Admin</option>
-                        <option value="Manager">Manager</option>
-                        <option value="CEO">CEO</option>
+                    <select class="form-select" name="role">
+                        <option value="1">Admin</option>
+                        <option value="2">Manager</option>
+                        <option value="3">CEO</option>
                     </select>
                 </div>
 
@@ -72,8 +74,7 @@
             </article>
             
         </section>
-    </main>
-
+  
     <?php 
   include './pages/footer.php';
 ?>
