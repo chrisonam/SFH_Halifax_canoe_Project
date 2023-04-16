@@ -1,9 +1,11 @@
 <?php 
-include './pages/header.php';
+
 session_start();
 $first=$_SESSION['firstname'];
 $last= $_SESSION['lastname'];
 $role= $_SESSION['role'];
+
+include './pages/header.php';
 
 ?>
 

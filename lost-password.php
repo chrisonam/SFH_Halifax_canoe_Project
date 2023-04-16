@@ -1,9 +1,11 @@
 <?php 
-include './pages/header.php';
+
 session_start();
 $first=$_SESSION['firstname'];
 $last= $_SESSION['lastname'];
 $role= $_SESSION['role'];
+
+include './pages/header.php';
 
 ?>
 
@@ -14,11 +16,11 @@ $role= $_SESSION['role'];
                 
 
                 <div class="col-12">
-                    <input type="text" class="form-control" name="firstname" placeholder="First name">
+                    <input type="text" class="form-control" name="firstname" placeholder="First name" required>
                 </div>
 
                 <div class="col-12">
-                    <input type="text" class="form-control" name="lastname" placeholder="Last name">
+                    <input type="text" class="form-control" name="lastname" placeholder="Last name" required>
                 </div>
 
                 <div class="col-12">

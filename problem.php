@@ -1,5 +1,6 @@
 <?php 
-include './pages/header.php';
+
+
 $first= $_GET['firstname'];
 $last= $_GET['lastname'];
 $role= $_GET['role'];
@@ -8,6 +9,8 @@ session_start();
 $_SESSION['firstname']= $first;
 $_SESSION['lastname']=$last;
 $_SESSION['role']=$role;
+
+include './pages/header.php';
 
 
 ?>

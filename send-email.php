@@ -1,10 +1,12 @@
 <?php 
-include './pages/header.php';
+
 
 session_start();
 $first=$_SESSION['firstname'];
 $last= $_SESSION['lastname'];
 $emailT=$_GET['emailType'];
+
+include './pages/header.php';
 ?>
 
 <section>
