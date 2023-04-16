@@ -12,9 +12,9 @@
     <header>
         <nav>
             <ul class="nav-links">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#">Book Trip</a></li>
-                <li><a href="#">Admin login</a></li>
+                <li><a class="text-decoration-none" href="index.php">Home</a></li>
+                <li><a class="text-decoration-none" href="#">Book Trip</a></li>
+                <li><a class="text-decoration-none" href="#">Admin login</a></li>
             </ul>
             <div class="menu-hamb">
                 <img src="./images/hamburger.png" alt="Menu hamburger">

@@ -16,14 +16,14 @@ $emailT=$_GET['emailType'];
                             break;
 
                         case'lost_pwd':
-                            echo'<h1> Lost password Instructions here </h1></div>';
+                            echo'<h1> Lost password Instructions here </h1></div> <article>';
+                              include ("instruction-pwd.php");
+                            echo '</article>';
                             break;
                     }
                 ?>
 
-            <article>
-              
-</article>
+           
 
 <?php 
     include './pages/footer.php';
