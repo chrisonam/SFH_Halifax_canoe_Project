@@ -22,7 +22,7 @@ include './pages/header.php';
 
                       case '1':
                         echo '<h1> Hello '.$first.'- Admin </h1> </div>';
-                        echo '<article> <h2>Here are your options :</h2> <a href="new-account.php">New Account</a> </br> <a href="isnt-working.php">Is not working</a> ';
+                        echo '<article> <h2>Here are your options :</h2> <a href="new-account.php">New Account</a> </br> <a href="isnt-working.php">Is not working</a> </br> <a href="admin-add.php">Add adventures</a>';
                         break;
 
                         case '2':
