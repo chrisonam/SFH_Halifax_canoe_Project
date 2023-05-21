@@ -8,7 +8,7 @@ if(isset($_POST['submit'])){
     $heading=$_POST['heading'];
     $tripDate = $_POST['tripDate'];
     $duration = $_POST['duration'];
-    $summary=htmlspecialchars($_POST['summary']);
+    $summary= str_replace("'", "\'",$_POST['summary']);
   
 
 
