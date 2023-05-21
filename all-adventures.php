@@ -6,10 +6,15 @@
 ?>
 
 
-<main>
+
         <div class="banner">
+
             <h1> Come Experienced Canada</h1>
+
+
         </div>
+
+        
         <section>
             <div class="title-section">
                 <h1>Upcoming Adventures</h1>
@@ -17,7 +22,7 @@
 
             <?php
     // select query 
-       $query="SELECT * FROM `adventures`";
+       $query="SELECT * FROM `adventures`  ORDER BY tripDate DESC";
        $result= mysqli_query($connex,$query);
        while($row = mysqli_fetch_assoc($result)){
         ?>

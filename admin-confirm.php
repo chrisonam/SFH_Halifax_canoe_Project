@@ -3,10 +3,15 @@
 ?>
 
 
-<main>
-     <h1>Ici confirmation </h1> 
+<section>
+            <div class="title-section">
+                <h1>Admin - Confirm</h1>
+            </div>
+            <div>
      <a href="all-adventures.php"> <h2> View All adventures</h2></a>
-</main>
+
+     </div>
+
 
 
 <?php   

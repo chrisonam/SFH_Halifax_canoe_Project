@@ -23,13 +23,11 @@
         
         <a href="#" class="title-nav"> Halifax Canoe and Kayak</a>
         <div class="logo">
+        <a href="logout.php" class=" p-4 link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" id="logout-btn" onclick="return confirm('Are you sure to logout?')";>Logout</a>
             <img src="./images/paddle-white.png" alt="">
         </div>
     </header>
-    <main>
-        <div class="mx-auto p-5 w-75 logout"  >
-            <div class="logout">
-           <a  href="logout.php" onclick="return confirm('Are you sure to logout?')";>Logout</a>
-            </div>
-
-        </div>
+    
+  <main>
+        
+      
